@@ -1,4 +1,4 @@
-# Inserts to Multiple Rows
+# Insert Multiple Rows
 
 This script reads in a text file containing SQL `INSERT INTO` statements and converts them into a single multiple rows `INSERT INTO` statement for each table.
 
