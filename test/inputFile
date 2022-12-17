@@ -1,0 +1,38 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 12.11
+-- Dumped by pg_dump version 14.5 (Homebrew)
+
+-- Started on 2022-12-16 19:00:35 EET
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+CREATE SCHEMA schema_name;
+
+--
+-- TOC entry 4330 (class 0 OID 27191)
+-- Dependencies: 209
+-- Data for Name: dummy; Type: TABLE DATA; Schema: schema_name; Owner: alex_barbu
+--
+
+INSERT INTO schema_name.dummy VALUES ('bb9ec5a2-bb25-492d-aeef-6537f6eb5122', 'ja', 'ja', 'migration', NULL, '2018-11-27 15:53:27.810862', NULL, false);
+INSERT INTO schema_name.dummy VALUES ('20963a1e-5d52-419e-b02c-731ff74c3f33', 'nein', 'nein', 'migration', NULL, '2018-11-27 15:53:27.810862', NULL, false);
+INSERT INTO schema_name.dummy VALUES ('a609e353-ea16-47e6-9747-5aa34ee05947', 'ja_nein', 'ja+nein', 'migration', NULL, '2018-11-27 15:53:27.810862', NULL, false);
+INSERT INTO schema_name.dummy VALUES ('ac104bd3-204a-453f-9778-af4606e47e14', 'jein', 'ja und nein', NULL, NULL, NULL, NULL, false);
+INSERT INTO schema_name.dummy VALUES ('d24e06ee-8dc5-4d1e-8851-32a9a950683c', 'n_e_', 'n.e.', 'migration', 'ABARBU', '2018-11-27 15:53:27.810862', '2019-09-24 12:31:23.06', true);
+INSERT INTO schema_name.dummy VALUES ('e7b7ee70-98ee-457a-9f96-876d50d78763', 'eher_nicht', 'eher nicht', 'ABARBU', 'ABARBU', '2019-09-24 12:35:27.654', '2019-09-24 12:40:02.827', true);
+INSERT INTO schema_name.dummy VALUES ('6d9811dd-d896-4c5a-a8db-6b4553016230', 'maybe_nope', 'was wes i wos des is des wos kana', 'migration', 'ABARBU', '2019-08-02 10:02:06.696608', '2019-09-24 12:52:48.349', true);
+INSERT INTO schema_name.dummy VALUES ('5d2fc61a-d4b9-4ad9-a66e-0f31ca6ca302', 'maybe_nope', 'eher nicht', 'ABARBU', 'LIEMARK', '2019-09-24 12:52:48.349', '2019-09-24 13:17:05.924', true);
+
+

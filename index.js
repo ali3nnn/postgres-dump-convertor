@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // Read in the text file
-fs.readFile('path/to/file', 'utf8', (err, data) => {
+fs.readFile('test/inputFile', 'utf8', (err, data) => {
   if (err) throw err;
 
   // Split the file contents into an array of lines
