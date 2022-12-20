@@ -1,5 +1,5 @@
 {
-  "name": "postgres-dump-convertor",
+  "name": "postgres-dump-converter",
   "version": "1.0.1",
   "description": "The module is able to convert a file containging multiple INSERT statements of one row to one INSERT statement with multiple rows",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ali3nnn/postgres-dump-convertor/issues"
   },
-  "homepage": "https://github.com/ali3nnn/postgres-dump-convertor#readme"
+  "homepage": "https://github.com/ali3nnn/postgres-dump-convertor#readme",
+  "dependencies": {
+    "postgres-dump-convertor": "^1.0.1"
+  }
 }
