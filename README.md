@@ -1,4 +1,8 @@
-# Insert Multiple Rows
+# Motivation
+
+I create this script to help me convert a postgres dump form having multiple INSERT statements for one table to have one INSERT statements of more rows per each table. You can achieve the same result by using `pg_dump` with the following parameters: `--inserts --row-per-insert=NNN` (`NNN` = number of rows per `INSERT`)
+
+# Description
 
 This script reads in a text file containing SQL `INSERT INTO` statements and converts them into a single multiple rows `INSERT INTO` statement for each table.
 
